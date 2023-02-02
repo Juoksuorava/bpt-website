@@ -3,15 +3,16 @@
 $forest-green: #154506;
 $forest-green-light: #205b0c;
 $text-secondary-color: #626262;
-$disabled-color: #BEBEBE;
-$light-gray: #EDEDED;
+$disabled-color: #bebebe;
+$light-gray: #ededed;
 $link-background-base-color: rgba(0, 151, 19, 0.1);
 
 $body-font: 'Lora', serif;
 $title-font: 'Oswald';
 $mobile-breakpoint: 1023px;
 
-$twitter-color: #4099FF;
+$telegram-color: #0088cc;
+$twitter-color: #4099ff;
 $facebook-color: #39529a;
 $instagram-color: #e02532;
 $kide-color: #7143d5;
@@ -34,7 +35,7 @@ $footer-bg-color: whitesmoke;
   text-decoration: underline;
   text-decoration-color: $color;
   text-underline-offset: 1.5px;
-  text-decoration-thickness: .125em;
+  text-decoration-thickness: 0.125em;
 }
 
 @mixin bpt-link-focus-custom($color) {
@@ -45,9 +46,9 @@ $footer-bg-color: whitesmoke;
   text-decoration: underline;
   text-decoration-color: $forest-green-light;
   text-underline-offset: 1.5px;
-  text-decoration-thickness: .125em;
+  text-decoration-thickness: 0.125em;
 }
-  
+
 @mixin bpt-link-focus {
   background-color: $link-background-base-color;
 }
